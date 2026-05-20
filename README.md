@@ -1,24 +1,26 @@
-# Inscripción a Materias - Instituto Argentino de la Empresa
+# 🎓 Sistema de Inscripción a Materias
 
-## Descripción
-Sistema desarrollado para la gestión y automatización de la inscripción a materias de los alumnos del Instituto. El proyecto busca digitalizar el proceso actual para mejorar la eficiencia administrativa.
+![Badge](https://img.shields.io/badge/Status-En%20Desarrollo-blue)
+![Badge](https://img.shields.io/badge/Seminario-Actualizaci%C3%B3n-success)
 
-## Stack Tecnológico
-- **Backend:** .NET / C#
-- **Frontend:** HTML, CSS, JavaScript, PHP
-- **Base de Datos:** SQL Server
-
-## Estructura del Proyecto
-- `/backend-dotnet`: Lógica del servidor y APIs.
-- `/frontend-web`: Interfaz de usuario, estilos y vistas en PHP.
-- `/sql-scripts`: Scripts de creación de base de datos y esquemas.
-- `/docs`: Documentación técnica y diagramas (DER).
-
-## Instrucciones de Instalación
-1. Clonar el repositorio: `git clone <url-del-repo>`
-2. Configurar el entorno de .NET.
-3. Ejecutar los scripts de `/sql-scripts` en SQL Server Management Studio.
-4. (Opcional) Configurar el servidor web para los archivos .php.
+Este proyecto tiene como objetivo digitalizar y optimizar el proceso de inscripción a materias para los alumnos del **Instituto Argentino de la Empresa**, eliminando la carga administrativa manual y mejorando la eficiencia del sistema académico.
 
 ---
-*Desarrollado para el Seminario de Actualización.*
+
+## 🛠️ Stack Tecnológico
+
+| Componente | Tecnología |
+| :--- | :--- |
+| **Backend** | .NET / C# |
+| **Frontend** | HTML, CSS, JavaScript, PHP |
+| **Base de Datos** | SQL Server |
+
+---
+
+## 📂 Estructura del Proyecto
+
+```text
+├── /backend-dotnet  # Lógica del servidor y APIs REST
+├── /frontend-web    # Interfaz de usuario, estilos y vistas PHP
+├── /sql-scripts     # Scripts de creación, esquemas y semillas
+└── /docs            # Documentación técnica y DER
